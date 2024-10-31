@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labyrinth Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Labyrinth Visualization</h1>
+        <div class="form">
+            <button onclick="loadJson()">Load Maze from JSON</button>
+            <button onclick="solveMaze()">Solve Maze</button>
+        </div>
+        
+        <div id="visualization">
+            <h2>Labyrinth Visualization</h2>
+            <div id="mazeContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#mazeContainer {
+    display: grid;
+    gap: 1px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.cell.start {
+    background-color: #b2dfdb;
+}
+
+.cell.goal {
+    background-color: #ffcc80;
+}
